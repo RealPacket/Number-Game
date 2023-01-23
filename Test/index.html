@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Game.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="Title">Number Guessing Game</h1>
+      <p id="money">Money: 0</p>
+    </header>
+    <main>
+      <section>
+        <h2>Guess a Number</h2>
+        <p>Guess a Number between 1 and 100.</p>
+        <form>
+          <label for="guess-input">Your guess:</label>
+          <input
+            type="number"
+            id="guess-input"
+            placeholder="#"
+            min="1"
+            max="100"
+            required
+          />
+          <button id="guess-button" type="button">Guess</button>
+        </form>
+        <p id="result"></p>
+      </section>
+      <section id="shop">
+        <h2>Shop</h2>
+        <section>
+          <h3 id="Hint" class="shop-item">Hint</h3>
+          <p>Price: <span id="hint-price price">10</span> money</p>
+          <button id="buy-hint-button" title="Buys a hint." type="button">Buy Hint</button>
+          <p id="hint"></p>
+        </section>
+        <section id="powerup-section">
+          <h3 id="Powerup-title" title="Auto Guess powerup">Auto Guess</h3>
+          <p>Price: <span id="auto-guess-price price">50</span> money</p>
+          <button id="buy-auto-guess-button" type="submit">Buy</button>
+          <p id="auto-guess"></p>
+          <p id="auto-guess-number">Auto Guess Number: 0</p>
+        </section>
+      </section>
+    </main>
+    <script module defer src="JS/index.mjs"></script>
+  </body>
+</html>
