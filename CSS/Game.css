@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+body {
+  text-align: center;
+  background-color: #282828;
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  padding: 0;
+}
+#money {
+  color: white;
+}
+.price {
+  color: rgb(60, 60, 60) !important;
+  font-weight: bold;
+}
+.Title {
+  color: white;
+}
+input {
+  background-color: #5a5a5a;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+header {
+  background-color: #282828;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+section {
+  background-color: #fafafa;
+  color: #282828;
+  padding: 16px;
+  margin: 16px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#shop {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#upgrade {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h1,
+h2,
+p,
+span {
+  color: #404040;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+button {
+  background-color: #282828;
+  color: #fafafa;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  transition: background-color 0.3s ease-out;
+  transition: transform 0.5s ease;
+}
+
+button:hover {
+  background-color: #5a5a5a;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
