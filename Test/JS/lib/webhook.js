@@ -24,7 +24,7 @@ class webhookUtil {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          content: message,
+          content: message || "Unspecified",
           ...options,
         }),
       });
