@@ -1,4 +1,4 @@
-let targetNumber = (crypto.getRandomValues(new Uint8Array(1))[0] % 10) + math.random(0, 10);
+let targetNumber = (crypto.getRandomValues(new Uint8Array(1))[0] % 10) + Math.random(0, 10);
 let playerMoney = Number(localStorage.getItem("Money")) || 0;
 let hintPrice = 10;
 let autoGuessPrice = 50;
